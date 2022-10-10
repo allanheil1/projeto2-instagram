@@ -251,6 +251,17 @@ body {
 	margin-bottom: 60px;
 }
 
+.post-last {
+	width: 100%; /* post ocupa 100% do post-container */
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	border-top: solid 1px #dbdbdb;
+	border-left: solid 1px #dbdbdb;
+	border-right: solid 1px #dbdbdb;
+	box-sizing: border-box;
+}
+
 .post-header {
 	background-color: white;
 	display: flex;
@@ -324,6 +335,7 @@ body {
 	padding-left: 12px;
 	padding-top: 8px;
 	box-sizing: border-box;
+	overflow: hidden;
 }
 
 .post-info h1 {
@@ -480,6 +492,9 @@ body {
 	}
 	.content-container{
 		width:100%;
+	}
+	.post-last{
+		margin-bottom: 54px;
 	}
 }
 
